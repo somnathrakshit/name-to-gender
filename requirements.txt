@@ -1,0 +1,2 @@
+pandas==0.22.0
+torch==0.3.0.post4
