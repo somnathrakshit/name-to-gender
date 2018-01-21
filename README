@@ -1,0 +1,4 @@
+This uses a RNN based on PyTorch running on Ubuntu 17.10 to identify the name from gender. This model has been trained using the names of people with social security numbers in Puerto Rico, USA.
+
+This work is based on [spro/practical-pytorch.
+](https://github.com/spro/practical-pytorch/blob/master/char-rnn-classification/char-rnn-classification.ipynb)

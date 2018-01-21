@@ -165,7 +165,7 @@ criterion = nn.NLLLoss()
 # We will also create an "optimizer" which updates the parameters of our model according to its gradients. We will use the vanilla SGD algorithm with a low learning rate.
 
 learning_rate = 0.005  # If you set this too high, it might explode. If too low, it might not learn
-optimizer = torch.optim.SGD(rnn.parameters(), lr=learning_rate)
+optimizer = torch.optim.SGD(rnn.parameters(), lr=learning_rate, momentum=0.5)
 
 
 # Each loop of training will:
