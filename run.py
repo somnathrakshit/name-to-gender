@@ -244,6 +244,7 @@ import matplotlib.ticker as ticker
 
 plt.figure()
 plt.plot(all_losses)
+plt.show()
 
 # Keep track of correct guesses in a confusion matrix
 confusion = torch.zeros(n_categories, n_categories)
@@ -304,6 +305,6 @@ def predict(input_line, n_predictions=2):
         predictions.append([value, all_categories[category_index]])
 
 
-predict('Dovesky')
+predict('Somnath')
 predict('Jackson')
 predict('Satoshi')

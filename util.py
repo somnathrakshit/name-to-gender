@@ -1,7 +1,7 @@
 import pandas as pd
 
-df = pd.read_csv('data/PR.TXT', sep=",", header=None)
-df.columns = ["cat", "gender", "year", "name", "count"]
+df = pd.read_csv('data/yob2016.txt', sep=",", header=None)
+df.columns = ["name", "gender", "count"]
 
 male = df.loc[df['gender'] == 'M']['name']
 female = df.loc[df['gender'] == 'F']['name']
